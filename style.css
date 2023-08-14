@@ -25,9 +25,18 @@
   .mt-lg {
     margin-top: 4rem; } }
 
+.mt-xl {
+  margin-top: 10rem; }
+  @media (max-width: 991px) {
+    .mt-xl {
+      margin-top: 5rem; } }
+
 @media (max-width: 991px) {
   .row {
     margin-left: 0 !important; } }
+
+.text-primary {
+  color: #eac696 !important; }
 
 .form-select {
   border: navajowhite; }
@@ -240,3 +249,13 @@ figure {
 
 .shadow_message {
   box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.331); }
+
+/* Cards */
+.mt-cards {
+  margin-top: 5rem; }
+  @media (max-width: 1194px) {
+    .mt-cards {
+      margin-top: 3rem; } }
+  @media (max-width: 991px) {
+    .mt-cards {
+      margin-top: 1.5rem; } }
