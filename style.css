@@ -1,6 +1,18 @@
 .container-fluid {
   max-width: 95% !important; }
 
+.my-5 {
+  margin-top: 10rem !important; }
+
+.my-md-4 {
+  margin-top: 5rem !important; }
+
+.mt-lg-5 {
+  margin-top: 6rem !important; }
+
+.mt-md-4 {
+  margin-top: 2.8rem !important; }
+
 .form-select {
   border: navajowhite; }
 
@@ -15,6 +27,47 @@
   -o-transition: all 0.5s ease; }
   .btn-info:hover, .btn-info:active {
     background: #9b8567 !important; }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background: #eac696;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.icon__next,
+.icon__left {
+  font-size: 1.4rem; }
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: none;
+  background: #eac696; }
+
+.img-gallery {
+  display: block;
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+  object-position: center; }
+
+@media (max-width: 575px) {
+  .img-gallery {
+    height: 35rem; } }
 
 @font-face {
   font-family: "Titulos";
@@ -31,7 +84,11 @@
   font-family: "cuerpo", sans-serif; }
 
 html {
-  font-family: "cuerpo", sans-serif; }
+  font-family: "cuerpo", sans-serif;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto; }
 
 .header {
   height: 100vh;
