@@ -1,0 +1,102 @@
+.container-fluid {
+  max-width: 95% !important; }
+
+.form-select {
+  border: navajowhite; }
+
+.btn-info {
+  padding: 8px unset;
+  background: #eac696;
+  border: inherit;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease; }
+  .btn-info:hover, .btn-info:active {
+    background: #9b8567 !important; }
+
+@font-face {
+  font-family: "Titulos";
+  src: url(../Heebo/static/Heebo-Regular.ttf); }
+
+.titulos {
+  font-family: "Titulos", sans-serif; }
+
+@font-face {
+  font-family: "cuerpo";
+  src: url(../Cuerpo/Barlow-Light.ttf); }
+
+.cuerpo {
+  font-family: "cuerpo", sans-serif; }
+
+html {
+  font-family: "cuerpo", sans-serif; }
+
+.header {
+  height: 100vh;
+  background: linear-gradient(320deg, #ffc6ac, rgba(234, 198, 150, 0.2)), url(../Hero.webp) center/cover no-repeat; }
+
+.hero {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  z-index: 4; }
+
+.icon-header {
+  color: #fff; }
+
+@media (max-width: 1199px) {
+  .col-search {
+    display: none !important; } }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20; }
+  .navbar .navbar-brand {
+    font-size: 1.7rem; }
+  .navbar .nav-link {
+    font-size: 1.5rem;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease; }
+  .navbar .nav-item:hover .nav-link {
+    border-bottom: 2px solid #765827; }
+
+.navBar2 .nav-item .btn-outline {
+  border: 2px solid #765827; }
+
+.navBar2 .nav-item .nav-link {
+  border-bottom: 2px solid #765827;
+  transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease; }
+
+.navBar2 .nav-item:hover .nav-link {
+  border: 2px solid #f1c27b; }
+
+@media (max-width: 991px) {
+  .navbar {
+    background: #eac696; }
+  .navBar2 .nav-item .btn-outline {
+    border: 2px solid transparent; }
+  .navBar2 .nav-item .nav-link {
+    border: 2px solid transparent; }
+  .navBar2 .nav-item:hover .nav-link {
+    border: 2px solid transparent;
+    border-bottom: 2px solid #765827; } }
+
+.navbar.scrolled {
+  background: #eac696;
+  transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease; }
