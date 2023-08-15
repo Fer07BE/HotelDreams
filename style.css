@@ -29,7 +29,7 @@
   margin-top: 10rem; }
   @media (max-width: 991px) {
     .mt-xl {
-      margin-top: 5rem; } }
+      margin-top: 2rem; } }
 
 @media (max-width: 991px) {
   .row {
@@ -111,6 +111,10 @@
 /* Pagination */
 .tab-content > .active {
   display: flex !important; }
+
+/* Footer */
+.nav-link {
+  display: inline-block !important; }
 
 @font-face {
   font-family: "Titulos";
@@ -200,6 +204,21 @@ html {
   -moz-transition: all 0.7s ease;
   -ms-transition: all 0.7s ease;
   -o-transition: all 0.7s ease; }
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: .95rem; }
+
+::-webkit-scrollbar-track-piece {
+  background: #f1c27b; }
+
+::-webkit-scrollbar-thumb {
+  background: #765827;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
 
 figure {
   height: 50rem;
@@ -309,3 +328,25 @@ figure {
 @media (max-width: 1194px) {
   .dots-page {
     margin-top: 1rem; } }
+
+.footer {
+  background: #765827; }
+  @media (max-width: 1618px) {
+    .footer .display-5 {
+      font-size: 2rem !important; } }
+  @media (max-width: 575px) {
+    .footer .display-5 {
+      font-size: 1.4rem !important; } }
+
+.social-icons a:not(:last-of-type) {
+  margin-right: 0.3rem; }
+
+.social-icons i {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease; }
+
+.social-icons a:hover i {
+  color: #ffc6ac; }
